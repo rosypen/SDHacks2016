@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title> Hate Hack Extension Test </title>
+  <link rel="stylesheet" style="text/css" href="homepage.css">
+<!--  <script src='hideshow.js'></script> -->
+  <script src = "accordion.js"></script>
+</head>
+<body>
+  <h3> Hidden Hate Comments </h3>
+
+  <button class="accordion">Hate Comment 1</button>
+  <div class="panel">
+    <p>Original Comment: <i>Kill Yourself</i></p>
+    <p>Friendly Reminder: <i>Kill them with kindness</i></p>
+  </div>
+
+  <button class="accordion">Hate Comment 2</button>
+  <div class="panel">
+    <p>Original Comment: <i>I hate you</i></p>
+    <p>Friendly Reminder: <i>I love you</i></p>
+  </div>
+
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+      };
+  }
+  </script>
+
+</body>
+</html>
