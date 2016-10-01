@@ -2,9 +2,11 @@
 
 <html>
 <head>
+  <link rel="stylesheet" style="text/css" href="static/home.css">
   <title>
     Hack Harrassment
   </title>
+  <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
   <h1> SDHacks 2016 </h1>
@@ -16,5 +18,32 @@
     <li> Every hate comment that the user decides to see, will be accompanied by a nice comment </li>
   </ul>
 
+  <button class="accordion">Hate Comment 1</button>
+  <div class="panel">
+    <p>Original Comment: <i>Kill Yourself</i></p>
+    <p>Friendly Reminder: <i>Kill them with kindness</i></p>
+  </div>
+
+  <button class="accordion">Hate Comment 2</button>
+  <div class="panel">
+    <p>Lorem ipsum...</p>
+  </div>
+
+  <button class="accordion">Hate Comment 3</button>
+  <div class="panel">
+    <p>Lorem ipsum...</p>
+  </div>
+  
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+    };
+}
+</script>
 </body>
 </html>
