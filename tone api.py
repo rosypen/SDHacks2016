@@ -1,3 +1,8 @@
+#IBM Tone Analyser 
+#Analyze a tring (text) and
+#return results as percentage 
+#of different tones and emotions
+
 import json
 from watson_developer_cloud import ToneAnalyzerV3
 
