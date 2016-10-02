@@ -1,0 +1,17 @@
+h2 {
+  background-color: #05B8CC;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font: bold;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  width: 250px;
+  height: auto;
+  padding-bottom: 15px;
+}
