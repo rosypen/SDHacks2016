@@ -1,4 +1,4 @@
-# At SD Hacks 2016, our team took on the Hack Harassment challenge. The Hack Harassment Challenge acknowledges that it is unrealistic to eliminate online harassment, but we can work toward creating a safer online environment. For 36 hours, we aimed to create a software tool that would identify hate speech online and put a positive spin on it.
+# At SD Hacks 2016, our team took on the Hack Harassment challenge. The Hack Harassment Challenge acknowledges that we can't guarantee eliminating online harassment, but we can work toward creating a safer online environment. For 36 hours, we aimed to create a software tool that would identify hate speech online and put a positive spin on it.
 
 #We believe that to combat online harassment, we need to change how we approach hate speech. Thus, we took two approaches.
 
@@ -6,7 +6,7 @@
 
 #The second tool (found in Hack_Hate_Extension) would allow users to actually hack harassment by using the inspect tool on Chrome. Users are reminded that what they see is just text and it can be changed. We encourage users to change the text to something silly or positive and share their changes to inspire others.
 
-#Both tools are incomplete at the moment.
+#Ideally, using hate detection software, we could stop harassment before it starts. But learning to handle harassment is an important life skill and our tools are designed to give people some reliable armor. However, both tools are incomplete for now. 
 
 #Dev Team
 1. Rosy Pendleton
